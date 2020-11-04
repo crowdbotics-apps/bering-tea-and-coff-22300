@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'bering_tea_and_coff_22300.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "bering_tea_and_coff_22300.settings")
 
 application = get_wsgi_application()
